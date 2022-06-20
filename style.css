@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin:1rem;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(107, 7, 37);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(107, 7, 37);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.cart-btn{
+    display: block;
+    width: auto;
+    padding-left: 2rem;
+   
+}
+.cart-btn a{
+    
+    color: rgb(112, 101, 101);
+        text-decoration: none;
+}
+  
+.cart-btna:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+  
+
+
+.main{
+    background: url('https://images.unsplash.com/photo-1608755728617-aefab37d2edd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z2lmdHxlbnwwfHwwfHw%3D&w=1000&q=80')no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.image-luid{
+    
+    width: 50px;
+    height: auto;
+    align-self: center;
+   
+    
+}
+
+
+.image-fluid{
+    width: 80%;
+    height: 100%;
+}
+
+.addtocart{
+    height: 30px;
+    width: 50%;
+    outline: none;
+    border: none;
+    background: rgb(107, 7, 37);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.view-all{
+    height: 30px;
+    width: 80%;
+    outline: none;
+    border: none;
+    background: rgb(228, 79, 124);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.view-all:hover{
+    background-color: rgb(107, 7, 37);
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: -5px -1px 24px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: -5px -1px 24px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px -1px 24px 5px rgba(0,0,0,0.75);
+transition: 0.4s;
+}
+
+
+
+    .main-sec{
+        
+ background: url('https://assets.rakhibazaar.com/images/small-banner.jpg')no-repeat;
+ 
+    height: 50vh;
+    width: 100%;
+    background-position: 50% 50%;
+    }
+
+    .main-third{
+        background: url('https://image.shutterstock.com/image-vector/ramadan-sale-web-header-banner-260nw-1080004550.jpg')no-repeat;
+    
+    height: 50vh;
+    width: 100%;
+    background-position: 50% 50%;
+    }
+
+    .read-more-container{
+        display: block;
+        flex-direction: column;
+        columns: #111;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .read-more-container h3{
+        text-align: center;
+    }
+
+    
+    .read-more-container> container{
+        padding:2rem;
+        background-color: #fff;
+        border-radius: 2px;
+        line-height: 1.4rem;
+        box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    }
+
+    .read-more-btn{
+        color: #ee18b8;
+    }
+    .read-more-text{
+        display: none;
+    }
+    .read-more-text--show{
+        display: inline;
+    }
+
+
+.footer-icons td {
+        padding-top: 1rem;
+        grid-row: 10rem;
+        padding-left: 13rem;
+        padding-right: 10rem;
+        text-align: center;
+      }
+      @media 
+      only screen and (max-width: 760px),
+      (min-width: 768px) and (max-width: 1024px)  {
+      
+          /* Force table to not be like tables anymore */
+          table,td, tr { 
+              display:inline-table;
+              margin-top: 1rem;
+              margin-left: 1rem;
+          }
+          
+        
+        }
